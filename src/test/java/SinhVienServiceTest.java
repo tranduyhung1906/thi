@@ -26,10 +26,10 @@ public class SinhVienServiceTest {
 @Test
      public  void suatc(){
     SinhVien sinhVien = new SinhVien("ma","ten",1);
-service.update(sinhVien,"ma","ma",1);
+service.update(sinhVien,"ma","ma",2);
     Assertions.assertEquals("ma",sinhVien.getTen());
     Assertions.assertEquals("ma",sinhVien.getMaSV());
-    Assertions.assertEquals(1,sinhVien.getTuoi());
+    Assertions.assertEquals(2,sinhVien.getTuoi());
 }
     @Test
     public void suatbvsmachong() {

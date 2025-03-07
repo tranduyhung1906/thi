@@ -29,6 +29,7 @@ public String xoa(String ma){
       sinhViens.remove(sinhVien);
       return "xoa tc";
 }
+
 public void validate(SinhVien sinhVien){
       if (sinhVien.getMaSV() == null || sinhVien.getMaSV().trim().isEmpty()){
           throw new IllegalArgumentException("ko bo trong ma");
